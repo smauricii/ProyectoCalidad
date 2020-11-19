@@ -39,7 +39,7 @@ public class Cliente implements Serializable {
 	@NotEmpty
 	@Email
 	private String email;
-
+//
 	@NotNull
 	@Column(name = "create_at")
 	@Temporal(TemporalType.DATE)
